@@ -16,3 +16,25 @@ CREATE TABLE animals (
 ALTER TABLE animals
 ADD COLUMN species VARCHAR(255);
 
+CREATE TABLE owners (
+    id serial PRIMARY KEY,
+    full_name varchar(255),
+    age integer
+);
+
+CREATE TABLE species (
+    id serial PRIMARY KEY,
+    name varchar(255)
+);
+
+ALTER TABLE animals
+ALTER COLUMN id SET DATA TYPE serial;
+
+ALTER TABLE animals
+DROP COLUMN species;
+
+ALTER TABLE animals
+ADD COLUMN species_id integer REFERENCES species(id);
+
+ALTER TABLE animals
+ADD COLUMN owner_id integer REFERENCES owners(id);
