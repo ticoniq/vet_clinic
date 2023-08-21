@@ -59,5 +59,6 @@ CREATE TABLE visits (
     visit_date date
 );
 
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
 
 
