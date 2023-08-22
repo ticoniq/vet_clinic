@@ -85,7 +85,7 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 ## SCHEMA DIAGRAM
 
-<img src="Untitled.png">
+<img src="https://raw.githubusercontent.com/ticoniq/vet_clinic/b1832951b3bcd7befff2942e10bd6b0e88196bcf/Untitled.png">
 
 <!-- FUTURE FEATURES -->
 
