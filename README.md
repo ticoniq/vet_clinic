@@ -85,7 +85,7 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 ## SCHEMA DIAGRAM
 
-<img src="untitled.png">
+<img src="Untitled.png">
 
 <!-- FUTURE FEATURES -->
 
